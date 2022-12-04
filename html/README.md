@@ -1,2 +1,68 @@
 # HTML Boilerplates
 HTML Template to save the time for creating new project.
+### HTML Head Meta Tags
+```HTML
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Main Information About The Website -->
+    <title>Title</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="keyword1, keyword2" />
+
+    <!-- Cache -->
+    <meta http-equiv="cache-control" content="cache">
+    <meta http-equiv="revisit-after" content="1 day">
+
+    <!-- Select rendering engine order - Asia Specific -->
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+
+    <!-- Search Engines - Allow To Index -->
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+
+    <!-- Verify website ownership -->
+    <meta name="google-site-verification" content="">
+
+    <!-- Author & Copyright Holder -->
+    <meta name="author" content="____" />
+    <meta name="copyright" content="____"> 
+
+    <!-- OpenGraph MetaData -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="____" />
+    <meta property="og:site_name" data-page-subject="true" content="____" />
+    <meta property="og:url" content="____" />
+    <meta property="og:description" name="description" content="____" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image"> 
+    <meta name="twitter:title" content="____">
+    <meta name="twitter:description" content="____">
+    <meta name="twitter:image" content="____" />
+
+    <!-- Images (Landscape) -->
+    <meta property="og:image" content="/resources/img/img-1024x512.jpg" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="512" />
+
+    <!-- Images (Portrtait) -->
+    <meta property="og:image" content="/resources/img/img-800x1200.jpg" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="1200" />
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- CSS -->
+    <link rel="preload" href="/resources/css/style.css" as="style" />
+    <link rel="stylesheet" href="/resources/css/style.css">
+
+    <!-- JS - Non Blocking -->
+    <link rel="preload" href="/resources/js/script.js" as="script" />
+    <script defer src="/resources/js/script.js"></script>
+```
